@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(to bottom, rgb(20 27 41), rgb(12 17 27) 300px);
+  font-family: "Roboto", "HelveticaNeue-Light", sans-serif;
+  font-size: 14px;
+}
+/* 
+linear-gradient(to bottom, rgb(20 27 41), rgb(12 17 27) 300px) */
+.moviesBlock {
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  padding-top: 2.5%;
+}
+
+.moviesBlock video {
+  width: 100%;
+  object-fit: cover;
+  height: 200px;
+}
+
+.moviesBlock .col-md-3 {
+  background: rgb(17 17 17);
+  border: 1px solid rgb(68 74 77 / 93%);
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.moviesBlock img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+.videoContentBlock{
+  position: absolute;
+  width:100%;
+  top:106px;
+  font-size: 21px;
+}
+.videoContentBlock h5{
+text-transform: capitalize;
+font-size: 12px;
+
+}
+.movieContentBlock{
+  
+}
